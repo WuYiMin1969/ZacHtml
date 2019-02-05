@@ -115,6 +115,12 @@ padding: 15px;
     display:block;
     padding:8px 15px;
 }
+#nav-info li a:hover{
+    color:#fa0;
+}
+#nav-info .btn:hover{
+    background-color:#fa0;
+}
 #nav-info .addr{
     float:left;
     padding:8px 15px;
@@ -154,6 +160,9 @@ nav .menu li{
 nav a{
     display:block;
     padding:8px 15px;
+}
+nav a:hover{
+    background:rgba(0,0,0,.3);
 }
 header{
     height: 800px;
@@ -270,10 +279,15 @@ header{
     width:calc(100% / 3);
 }
 .num{
+    position:relative;
+    left:4px;
+    top:2px;
     font-size: 40px;
     Line-height:40px;
 }
 .mon{
+    position:relative;
+    bottom:5px;
     font-size: 10px;
     font-weight: 150;
 }
